@@ -1,2 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/kikkawa1323/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_79b4689ca1591342f81ca7c9e757adfa6479439f.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_0bfe20b038b9ed6f7e6828d027753a461fd06498.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_1e57bea39e2ee219e4a0367056f50a06f5173313.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_43ccc1fe2e0c023298856024db7595a520392e46.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_31885321e85fd40294b75ac4389c68143f28a5c9.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_c2c9089fa1e784bbdcab7454afe0825f2add5db2.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_ee59af142e6adec6754c80d831d2142cfd2ac92a.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_61548b8cc21359efbd0419f182e2b50a0fc1af07.jar" />
+    </item>
+    <item
+        jar="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/kikkawa1323/test_android/MyApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_178b17cd9e33f3c832082189f6fe8c3710c028b5.jar" />
+    </item>
+
+</items>

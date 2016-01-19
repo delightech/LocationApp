@@ -16,7 +16,6 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <category android:name="android.intent.category.LAUNCHER" />
-                <data android:scheme="foutdemo" android:host="foutdemo" />
             </intent-filter>
         </activity>
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
@@ -24,11 +23,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <receiver android:name="jp.fout.dmp.beacon.FOAlarmReceiver"/>
-        <service android:name="jp.fout.dmp.beacon.FOLocationService"/>
-        <service android:name="jp.fout.dmp.beacon.FOBeaconService" android:enabled="true">
-            <meta-data android:name="background" android:value="true"/>
-        </service>
     </application>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>

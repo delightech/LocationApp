@@ -21,14 +21,10 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import jp.fout.dmp.FOTracking;
-import jp.fout.dmp.beacon.FOBeaconTracking;
 
 public class MainActivity extends AppCompatActivity implements ActivityCompat.OnRequestPermissionsResultCallback, LocationListener {
     static final String MENU_ITEM = "get location";
     private LocationManager manager;
-    FOTracking foTracking;
-    FOBeaconTracking foBeaconTracking;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -56,23 +52,17 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
-        foTracking = FOTracking.getInstance();
-        foTracking.initialize(getApplicationContext(), getApplication(), "3", "1075");
-
-        //SwatLib.init(getApplicationContext(), "972", "2035", "868", "6038", "b50972f23a31a9df", "garden", "");
         manager = (LocationManager) getSystemService(LOCATION_SERVICE);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        foTracking.onResumeSDK();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        foTracking.onPauseSDK();
     }
 
 
@@ -122,9 +112,6 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
     public void onLocationChanged(Location location) {
         double lat = location.getLatitude();
         double lng = location.getLongitude();
-
-        foBeaconTracking = FOBeaconTracking.getInstance(getApplicationContext());
-        foBeaconTracking.sendLocation(location);
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText("lat:" + lat + " long:" + lng);
